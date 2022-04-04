@@ -1,0 +1,22 @@
+{
+  "info": {
+    "_postman_id": "247db3d2-f643-4690-879d-7cc38f36aa68",
+    "name": "001 todoist tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "_postman_id": "6b625765-4bdc-4ff6-9bce-d183dcb74660",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    }
+  ]
+}
