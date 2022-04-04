@@ -7,16 +7,38 @@
   "item": [
     {
       "name": "New Request",
-      "_postman_id": "6b625765-4bdc-4ff6-9bce-d183dcb74660",
+      "id": "6b625765-4bdc-4ff6-9bce-d183dcb74660",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
       "request": {
         "method": "GET",
-        "header": [],
-        "url": null
+        "header": []
       },
       "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "44d70a55-16e8-4197-a698-3004ab6607a0",
+        "type": "text/javascript",
+        "exec": [
+          "//testy",
+          "//"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "6293710a-5004-4d7b-8c07-d3f66ef34b76",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
     }
   ]
 }
